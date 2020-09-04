@@ -1,0 +1,23 @@
+@import './../../../common_settings/commonStyles.scss';
+
+.imgBox {
+  @extend %flex-center;
+}
+
+.imgBox > img {
+  width: 100%;
+}
+
+.prev {
+  opacity: 0.6;
+  width: 25%;
+  left: 0;
+  flex-shrink: 1;
+}
+
+.next {
+  opacity: 0.6;
+  width: 25%;
+  right: 0;
+  flex-shrink: 1;
+}

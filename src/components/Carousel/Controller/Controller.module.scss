@@ -1,0 +1,47 @@
+@import './../../common_settings/commonStyles.scss';
+
+.controllerContainer {
+  @extend %flex-center;
+  flex-direction: row;
+  padding: 15px;
+  margin: auto 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+
+.navigation {
+  @extend %flex-center;
+  flex-direction: row;
+  margin: auto 5px;
+}
+
+.navigation > * {
+  min-width: 2rem;
+  margin: auto 5px;
+}
+
+.delayContainer {
+  @extend %flex-center;
+  flex-direction: row;
+  padding-left: 5px;
+  border-left: 1px solid grey;
+}
+
+.delayContainer > * {
+  margin: auto 5px;
+  min-width: 2rem;
+}
+
+.delaySlider {
+  @extend %flex-center;
+  flex-direction: column;
+}
+
+.delaySlider > * {
+  margin: 0;
+}
+
+.delaySlider > p {
+  font-size: 14px;
+}

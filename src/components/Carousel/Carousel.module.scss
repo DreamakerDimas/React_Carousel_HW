@@ -1,0 +1,9 @@
+@import './../common_settings/commonStyles.scss';
+
+.carouselContainer {
+  @extend %flex-center;
+  min-width: 320px;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: column;
+}

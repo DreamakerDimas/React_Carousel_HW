@@ -1,0 +1,26 @@
+@import './../../common_settings/commonStyles.scss';
+
+.outerContainer {
+  @extend %flex-center;
+  flex-direction: column;
+  border: 3px solid rgba(151, 76, 201, 0.7);
+  border-radius: 10px;
+  padding: 10px 5px;
+  background-color: rgba(151, 76, 201, 0.3);
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+.slidesContainer {
+  @extend %flex-center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.currentBox {
+  width: 45%;
+  left: 0;
+  right: 0;
+  flex-grow: 4;
+}
