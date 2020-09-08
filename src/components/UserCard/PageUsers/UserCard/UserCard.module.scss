@@ -1,0 +1,44 @@
+@import './../../../common_settings/commonStyles.scss';
+
+.userContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid rgba(77, 77, 77, 0.2);
+  border-radius: 5px;
+  margin: 2.5px 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.userTitle {
+  @extend %flex-center;
+  min-width: 45%;
+  flex-direction: column;
+}
+
+.userAvatar {
+  height: 84px;
+  width: 84px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+.userAvatar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.userName {
+  color: royalblue;
+}
+
+.userInfo {
+  font-style: italic;
+  flex-grow: 2;
+}

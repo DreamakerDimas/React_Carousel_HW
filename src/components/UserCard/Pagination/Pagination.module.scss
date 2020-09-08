@@ -1,0 +1,17 @@
+@import './../../common_settings/commonStyles.scss';
+
+.pageContainer {
+  @extend %flex-center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.paginationCont {
+  @extend %flex-center;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.paginationCont > button {
+  margin: auto 10px;
+}

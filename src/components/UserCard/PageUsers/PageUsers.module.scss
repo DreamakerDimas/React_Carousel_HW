@@ -1,0 +1,13 @@
+@import './../../common_settings/commonStyles.scss';
+
+.usersContainer {
+  @extend %flex-center;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  border: solid 2px rgba(11, 161, 167, 0.8);
+  border-radius: 10px;
+  background-color: rgba(11, 161, 167, 0.2);
+  padding: 2.5px 5px;
+}
