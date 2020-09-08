@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import getUsers from './../api';
+import getUsers from '../api';
 import UserCard from './UserCard';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';

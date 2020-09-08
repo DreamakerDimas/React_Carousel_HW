@@ -1,5 +1,5 @@
 import React from 'react';
-import PageUsers from './../PageUsers';
+import PageUsers from '../PageUsers';
 import PropTypes from 'prop-types';
 import styles from './Pagination.module.scss';
 

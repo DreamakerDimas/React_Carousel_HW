@@ -1,4 +1,4 @@
-import config from './../config';
+import config from '../config';
 import queryString from 'query-string';
 
 const {
@@ -25,6 +25,7 @@ const getUsers = async (options) => {
   );
 };
 
+//велосипед
 const userFieldsToString = () => {
   let userFieldsString = '';
   userFields.forEach((value, index) => {
